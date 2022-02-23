@@ -1,5 +1,6 @@
 # MY-NVIM
 Minimalistic configuration for Neovim.
+**[My configuration of Unix is here.](https://github.com/vad56/config)**
 
 ### Get
 ```bash
