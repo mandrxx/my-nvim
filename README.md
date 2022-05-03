@@ -6,8 +6,9 @@ Minimalistic configuration for Neovim.
 ```bash
 curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
 chmod u+x nvim.appimage
-sudo mv nvim.appimage /usr/local/bin
-sudo ln -s /usr/local/bin/nvim.appimage /usr/local/bin/nvim
+mkdir -p ~/.local/bin && mv nvim.appimage ~/.local/bin
+ln ~/.local/bin/nvim.appimage ~/.local/bin/nvim
+# add it to your fish config: set PATH $HOME/.local/bin $PATH
 ```
 
 ### Get this configuration
